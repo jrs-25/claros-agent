@@ -11,9 +11,6 @@ venv/
 # macOS
 .DS_Store
 
-# Output files (optional - remove this line if you want to track outputs)
-output/
-
 # Credentials
 *.key
 *.pem
