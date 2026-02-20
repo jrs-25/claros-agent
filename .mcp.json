@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cod-agent": {
+      "command": "/Users/joelrsadler/anaconda3/bin/python3",
+      "args": ["mcp_server/server.py"]
+    }
+  }
+}
