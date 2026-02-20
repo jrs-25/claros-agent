@@ -1,6 +1,11 @@
-from fastmcp import FastMCP
+import asyncio
+import json
 
-mcp = FastMCP("COD Document Server")
+import mcp.types as types
+from mcp.server import Server
+from mcp.server.stdio import stdio_server
+
+server = Server("COD Document Server")
 
 # ---------------------------------------------------------------------------
 # Mock data
@@ -240,36 +245,78 @@ Signed: Regional Office Adjudicator, Columbus VARO  |  Date: 2023-06-20
 
 
 # ---------------------------------------------------------------------------
-# MCP Tools
+# Tool handlers
 # ---------------------------------------------------------------------------
 
-@mcp.tool()
-def search(participant_id: str) -> list[dict]:
-    """Search for documents associated with a veteran participant ID.
-
-    Returns a list of document metadata records. Use retrieve_text_content
-    with a document_id to fetch the full text of any document.
-    """
-    results = [
-        doc for doc in DOCUMENTS.values()
-        if doc["participant_id"] == participant_id
+@server.list_tools()
+async def list_tools() -> list[types.Tool]:
+    return [
+        types.Tool(
+            name="search",
+            description=(
+                "Search for documents associated with a veteran participant ID. "
+                "Returns a list of document metadata records. Use retrieve_text_content "
+                "with a document_id to fetch the full text of any document."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "participant_id": {
+                        "type": "string",
+                        "description": "The veteran's participant/ICN identifier.",
+                    }
+                },
+                "required": ["participant_id"],
+            },
+        ),
+        types.Tool(
+            name="retrieve_text_content",
+            description="Retrieve the full text content of a document by its document_id.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "document_id": {
+                        "type": "string",
+                        "description": "The document_id returned by search.",
+                    }
+                },
+                "required": ["document_id"],
+            },
+        ),
     ]
-    if not results:
-        return []
-    return results
 
 
-@mcp.tool()
-def retrieve_text_content(document_id: str) -> str:
-    """Retrieve the full text content of a document by its document_id."""
-    if document_id not in DOCUMENT_TEXT:
-        return f"Error: document '{document_id}' not found."
-    return DOCUMENT_TEXT[document_id]
+@server.call_tool()
+async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
+    if name == "search":
+        participant_id = arguments["participant_id"]
+        results = [
+            doc for doc in DOCUMENTS.values()
+            if doc["participant_id"] == participant_id
+        ]
+        return [types.TextContent(type="text", text=json.dumps(results, indent=2))]
+
+    if name == "retrieve_text_content":
+        document_id = arguments["document_id"]
+        if document_id not in DOCUMENT_TEXT:
+            return [types.TextContent(type="text", text=f"Error: document '{document_id}' not found.")]
+        return [types.TextContent(type="text", text=DOCUMENT_TEXT[document_id])]
+
+    raise ValueError(f"Unknown tool: {name}")
 
 
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 
+async def main() -> None:
+    async with stdio_server() as (read_stream, write_stream):
+        await server.run(
+            read_stream,
+            write_stream,
+            server.create_initialization_options(),
+        )
+
+
 if __name__ == "__main__":
-    mcp.run()
+    asyncio.run(main())
