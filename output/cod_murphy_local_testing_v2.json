@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "participant_id": "1012345678V123456",
+    "veteran_name": "Murphy, Samuel James",
+    "instructions_version": "local_testing_v2",
+    "instructions_file": "agent/system_instructions_v2.md",
+    "analysis_date": "2026-02-23"
+  },
+  "veteran_info": {
+    "name": "Murphy, Samuel James",
+    "participant_id": "1012345678V123456",
+    "branch": "U.S. Army",
+    "service_period": "2001-03-12 to 2003-08-15",
+    "current_cod": "Under Other Than Honorable Conditions (UOTHC)"
+  },
+  "search_summary": {
+    "total_documents_found": 5,
+    "documents_analyzed": 5,
+    "documents_skipped": 0
+  },
+  "documents_analyzed": [
+    {
+      "document_id": "DOC001",
+      "document_type": "DD214",
+      "title": "Certificate of Release or Discharge from Active Duty",
+      "date": "2003-08-15",
+      "source": "DPRIS",
+      "summary": "Murphy served as an 11B Infantryman from 2001-03-12 to 2003-08-15 (2 years, 5 months, 3 days). Character of discharge is Under Other Than Honorable Conditions. Separation authority: AR 635-200, Chapter 14. Separation code 385 (AWOL/Desertion), RE-4. Narrative reason: Misconduct – Absent Without Leave. Remarks confirm AWOL from 2003-02-14, voluntary return 2003-06-01 (107 days), Summary Court-Martial, UOTHC discharge per Ch. 14-12b. Awards include Army Service Ribbon, National Defense Service Medal, Global War on Terrorism Service Medal.",
+      "cod_relevant": true
+    },
+    {
+      "document_id": "DOC002",
+      "document_type": "Military Personnel Record",
+      "title": "Service Record – Disciplinary Actions",
+      "date": "2003-07-01",
+      "source": "NPRC",
+      "summary": "Documents disciplinary history and separation proceedings. Disciplinary timeline: (1) 2002-09-15 verbal counseling for failure to report to formation (3 occurrences); (2) 2002-12-03 Article 15 for public intoxication off-post — reduced E-4 to E-3, $300 pay forfeiture; (3) 2003-01-20 Letter of Reprimand for 48-hour unauthorized absence. AWOL: departed 2003-02-14, returned voluntarily 2003-06-01 (107 days). Summary Court-Martial 2003-06-25, guilty plea to UCMJ Art. 86, forfeiture of 2/3 pay for 1 month, no confinement. Separation initiated 2003-07-02 by CPT Rodriguez under Ch. 14-12b; board waived by soldier; approved 2003-08-10; effective 2003-08-15. Medical notes: Behavioral Health referral 2002-11-10 for sleep disturbance and heightened anxiety post-deployment; attended 2 of 6 scheduled sessions before disengaging.",
+      "cod_relevant": true
+    },
+    {
+      "document_id": "DOC003",
+      "document_type": "VA Form 21-0781",
+      "title": "Statement in Support of Claim for PTSD",
+      "date": "2023-03-10",
+      "source": "VBMS",
+      "summary": "Veteran-authored statement submitted 2023-03-10 identifying two combat stressors. Stressor 1: ~2001-11-18, Kandahar Province — IED ambush during foot patrol; witnessed death of PFC Holloway at close range; rendered aid; reports recurring nightmares since. Stressor 2: ~2002-01-09, FOB Salerno — mortar attack during evening meal; assisted casualty evacuation under fire; identifies smell of burning and sound of incoming rounds as persistent triggers. Veteran statement attributes post-deployment behavioral decline (sleep loss, alcohol use, isolation, missed formations) to untreated trauma. States AWOL was a mental health crisis, not desertion: 'I was not trying to desert — I was trying to survive.' Voluntarily returned. Diagnosed with PTSD by Dr. Anita Sharma, Columbus Vet Center, 2023-01-14 (diagnosis records noted as attached separately — not present in this file). Requests discharge upgrade to access treatment benefits.",
+      "cod_relevant": true
+    },
+    {
+      "document_id": "DOC004",
+      "document_type": "Buddy Statement",
+      "title": "Personal Statement – Carlos Rivera",
+      "date": "2023-04-02",
+      "source": "VBMS",
+      "summary": "Statement from Former SPC Carlos Rivera, same unit (3/505 PIR), submitted 2023-04-02. Rivera served alongside Murphy from enlistment (March 2001) through Afghanistan deployment and discharge. Describes Murphy as motivated and high-performing pre-deployment — always early to formation, supportive of junior soldiers. Corroborates clear behavioral change following November 2001 ambush: nightmares, social withdrawal, loss of appetite. Describes Murphy's post-return deterioration: increased drinking, missed formations. Notes Murphy told him weeks before the AWOL that he felt 'like he was going to lose his mind if he stayed.' Characterizes AWOL as mental health crisis, not an attempt to avoid duty. States: 'He was a good soldier who fell through the cracks of a system that did not have the tools to help him at the time.'",
+      "cod_relevant": true
+    },
+    {
+      "document_id": "DOC005",
+      "document_type": "Administrative Decision",
+      "title": "Character of Discharge Determination – Initial Decision",
+      "date": "2023-06-20",
+      "source": "VBMS",
+      "summary": "Columbus VARO initial COD determination dated 2023-06-20. Statutory bar under 38 C.F.R. § 3.12(c)(6) found inapplicable — AWOL of 107 days falls below the 180-day threshold. Under § 3.12(d) dishonorable conditions analysis, factors against upgrade: 107-day AWOL, Summary Court-Martial conviction, prior Article 15 and counseling history. Factors in favor: honorable combat deployment (OEF), no prior criminal history, contemporaneous BH referral Nov 2002, VA Form 21-0781 and PTSD diagnosis on file, voluntary surrender. Decision: denied on current record under § 3.12(d); non-final. One-year window for additional evidence from decision date (~2024-06-20). Adjudicator flagged Kurta Memo (2018) applicability and recommended IDES/Mental Health Review before final adjudication.",
+      "cod_relevant": true
+    }
+  ],
+  "key_findings": {
+    "character_of_discharge": "Under Other Than Honorable Conditions (UOTHC) — DOC001",
+    "discharge_authority": "AR 635-200, Chapter 14-12b — DOC001",
+    "discharge_reason": "Misconduct – Absent Without Leave (107 days, 2003-02-14 to 2003-06-01) — DOC001, DOC002",
+    "separation_date": "2003-08-15 — DOC001",
+    "service_duration": "2 years, 5 months, 3 days — DOC001",
+    "reenlistment_code": "RE-4 — DOC001",
+    "aggravating_factors": "107-day AWOL (DOC001, DOC002); Summary Court-Martial, guilty plea, UCMJ Art. 86 (DOC002); Article 15 Dec 2002 for public intoxication, rank reduction (DOC002); Letter of Reprimand Jan 2003 for 48-hr unauthorized absence (DOC002); verbal counseling Sep 2002 for repeated failure to report (DOC002); waived right to administrative separation board (DOC002)",
+    "mitigating_factors": "Combat deployment OEF Sep 2001–Mar 2002 with GWOTSM award (DOC001); no prior criminal history (DOC005); contemporaneous Behavioral Health referral Nov 2002 documenting sleep disturbance and anxiety post-deployment (DOC002); voluntary surrender to military control (DOC001, DOC002); PTSD diagnosis Jan 2023 from licensed provider referenced in file (DOC003); independent third-party corroboration of trauma symptoms and behavioral change from Nov 2001 (DOC004); AWOL duration below 180-day statutory bar (DOC005)",
+    "mental_health_nexus": "Partial nexus present across multiple documents. Contemporaneous BH referral Nov 2002 (DOC002) documents post-deployment anxiety and sleep disturbance. Veteran directly links AWOL to untreated combat trauma (DOC003). Buddy statement independently corroborates behavioral deterioration beginning after Nov 2001 ambush (DOC004). PTSD formally diagnosed Jan 2023 by Dr. Anita Sharma (DOC003 — diagnosis records not present in file). Formal medical nexus opinion connecting PTSD to AWOL conduct is absent; identified as critical gap by VARO adjudicator (DOC005)."
+  },
+  "missing_documents": [
+    {
+      "document_type": "PTSD Diagnosis Records – Dr. Anita Sharma, Columbus Vet Center (2023-01-14)",
+      "impact": "Referenced in DOC003 as attached separately but absent from file. Primary clinical evidence supporting the mental health nexus claim; without it the PTSD diagnosis is unverified by the record."
+    },
+    {
+      "document_type": "Service Treatment Records (STR) – Deployment and Post-Deployment (2001–2003)",
+      "impact": "Not present. Contemporaneous medical records could corroborate trauma exposure and document any mental health or behavioral health encounters prior to AWOL."
+    },
+    {
+      "document_type": "Summary Court-Martial Transcript (2003-06-25)",
+      "impact": "Only the outcome is documented in DOC002. Full transcript may contain mitigating context presented at trial relevant to the § 3.12(d) analysis."
+    }
+  ],
+  "additional_review_recommended": [
+    {
+      "document_type": "Nexus Letter from Treating Provider",
+      "reason": "VARO adjudicator in DOC005 identified a formal medical opinion linking PTSD to the AWOL as the prerequisite for Kurta Memo liberal consideration. Highest-impact missing item."
+    },
+    {
+      "document_type": "IDES / Mental Health Review",
+      "reason": "Explicitly recommended by Columbus VARO adjudicator in DOC005 before final adjudication."
+    }
+  ],
+  "confidence_level": "medium",
+  "confidence_rationale": "DD214 present with clear COD designation. Supporting personnel records, veteran statement, buddy statement, and prior administrative decision all retrieved and analyzed. Confidence is medium rather than high because the PTSD diagnosis records are absent from the file, the nexus between PTSD and AWOL is factually supported but clinically unverified, and the administrative denial is non-final pending additional evidence."
+}
