@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "participant_id": "1012345678V123456",
+    "veteran_name": "Murphy, Samuel James",
+    "instructions_version": "local_testing_v1",
+    "instructions_file": "agent/system_instructions.md",
+    "analysis_date": "2026-02-23"
+  },
+  "veteran_info": {
+    "name": "Murphy, Samuel James",
+    "participant_id": "1012345678V123456",
+    "branch": "U.S. Army, 3rd Battalion, 505th PIR, 82nd Airborne Division",
+    "service_period": "2001-03-12 to 2003-08-15",
+    "current_cod": "Under Other Than Honorable Conditions (UOTHC)"
+  },
+  "search_summary": {
+    "total_documents_found": 5,
+    "documents_analyzed": 5,
+    "documents_skipped": 0
+  },
+  "documents_analyzed": [
+    {
+      "document_id": "DOC001",
+      "document_type": "DD214",
+      "title": "Certificate of Release or Discharge from Active Duty",
+      "date": "2003-08-15",
+      "source": "DPRIS",
+      "cod_relevant_summary": "UOTHC discharge under AR 635-200 Ch. 14-12b for Misconduct–AWOL. Separation code 385, RE-4. AWOL from 2003-02-14, returned 2003-06-01 (107 days). Summary Court-Martial noted in remarks. Awards include GWOTSM reflecting combat service.",
+      "content_note": "Primary COD document. All fields relevant."
+    },
+    {
+      "document_id": "DOC002",
+      "document_type": "Military Personnel Record",
+      "title": "Service Record – Disciplinary Actions",
+      "date": "2003-07-01",
+      "source": "NPRC",
+      "cod_relevant_summary": "Documents full disciplinary timeline: verbal counseling Sep 2002 (failure to report, 3x); Article 15 Dec 2002 (public intoxication, reduced E-4→E-3, $300 forfeiture); LOR Jan 2003 (48-hr unauthorized absence). AWOL confirmed 107 days, voluntary surrender. Summary Court-Martial 25 Jun 2003, guilty plea, pay forfeiture only. Separation initiated 02 Jul 2003, board waived. Critically: Behavioral Health referral 2002-11-10 — sleep disturbance and heightened anxiety documented post-deployment; attended only 2 of 6 sessions.",
+      "content_note": "All extracted content is COD-relevant. Behavioral Health entry is key contemporaneous evidence."
+    },
+    {
+      "document_id": "DOC003",
+      "document_type": "VA Form 21-0781",
+      "title": "Statement in Support of Claim for PTSD",
+      "date": "2023-03-10",
+      "source": "VBMS",
+      "cod_relevant_summary": "Veteran identifies two combat stressors: (1) IED ambush ~2001-11-18, Kandahar Province — witnessed death of PFC Holloway at close range, rendered aid; (2) mortar attack ~2002-01-09, FOB Salerno — assisted casualty evacuation under fire. Veteran attributes AWOL directly to untreated trauma: 'I was not trying to desert — I was trying to survive.' Reports voluntary return. PTSD diagnosis by Dr. Anita Sharma, Columbus Vet Center, 2023-01-14 (records noted as attached separately — NOT present in file).",
+      "content_note": "Veteran-authored; self-reported stressors and nexus claim. Corroborating diagnosis records absent from file."
+    },
+    {
+      "document_id": "DOC004",
+      "document_type": "Buddy Statement",
+      "title": "Personal Statement – Carlos Rivera",
+      "date": "2023-04-02",
+      "source": "VBMS",
+      "cod_relevant_summary": "Former SPC Carlos Rivera, same unit, corroborates: Murphy was motivated and high-performing pre-deployment. Observed clear behavioral change after Nov 2001 ambush — nightmares, social withdrawal, reduced appetite. Notes Murphy's increased drinking and missed formations post-return. States Murphy expressed feeling 'like he was going to lose his mind' weeks before AWOL. Characterizes AWOL as mental health crisis, not desertion intent.",
+      "content_note": "Independent third-party corroboration of trauma symptoms and behavioral change. Consistent with DOC003 timeline."
+    },
+    {
+      "document_id": "DOC005",
+      "document_type": "Administrative Decision",
+      "title": "Character of Discharge Determination – Initial Decision",
+      "date": "2023-06-20",
+      "source": "VBMS",
+      "cod_relevant_summary": "Columbus VARO initial determination. Statutory bar under 38 C.F.R. § 3.12(c)(6) found inapplicable (AWOL 107 days < 180-day threshold). Dishonorable conditions analysis under § 3.12(d) resulted in denial on current record. Decision is non-final; one-year window for additional evidence. Adjudicator explicitly flagged Kurta Memo (2018) applicability and recommended IDES/Mental Health Review before final adjudication.",
+      "content_note": "Non-final denial. Identifies nexus letter as the critical missing evidentiary element."
+    }
+  ],
+  "key_findings": {
+    "character_of_discharge": "Under Other Than Honorable Conditions (UOTHC) — DOC001",
+    "discharge_authority": "AR 635-200, Chapter 14-12b — DOC001",
+    "discharge_reason": "Misconduct – Absent Without Leave (107 days, 2003-02-14 to 2003-06-01) — DOC001, DOC002",
+    "separation_date": "2003-08-15 — DOC001",
+    "service_duration": "2 years, 5 months, 3 days — DOC001",
+    "reenlistment_code": "RE-4 — DOC001",
+    "aggravating_factors": "107-day AWOL; Summary Court-Martial conviction, guilty plea, UCMJ Art. 86 (DOC002); Article 15 Dec 2002 for public intoxication with rank reduction (DOC002); Letter of Reprimand Jan 2003 for 48-hr unauthorized absence (DOC002); verbal counseling Sep 2002 for repeated failure to report (DOC002); waived right to administrative separation board (DOC002)",
+    "mitigating_factors": "Combat deployment OEF Sep 2001–Mar 2002 with GWOTSM award (DOC001); no prior criminal history (DOC005); Behavioral Health referral on file Nov 2002 — contemporaneous documentation of mental health symptoms (DOC002); voluntary surrender to military control (DOC001, DOC002); PTSD diagnosis Jan 2023 from licensed provider (DOC003); independent buddy corroboration of trauma symptoms beginning Nov 2001 (DOC004); AWOL below 180-day statutory bar threshold (DOC005)",
+    "mental_health_nexus": "Partial nexus chain present. Contemporaneous BH referral Nov 2002 (DOC002) documents sleep disturbance and anxiety post-deployment. Veteran directly attributes AWOL to untreated combat trauma (DOC003). Buddy statement independently corroborates behavioral deterioration beginning after Nov 2001 ambush (DOC004). PTSD formally diagnosed Jan 2023 by Dr. Anita Sharma (referenced DOC003). Formal nexus opinion linking PTSD to AWOL is absent from file — identified by VARO as the critical gap (DOC005)."
+  },
+  "missing_documents": [
+    {
+      "document_type": "PTSD Diagnosis Records – Dr. Anita Sharma, Columbus Vet Center (Jan 2023)",
+      "impact": "Referenced in DOC003 as attached separately but not present in file. This is the primary clinical record supporting the mental health nexus claim. Its absence leaves the PTSD diagnosis unverified by the file and weakens nexus argument."
+    },
+    {
+      "document_type": "Service Treatment Records (STR) – Deployment and Post-Deployment (2001–2003)",
+      "impact": "No STRs present. Contemporaneous medical records from Afghanistan deployment and Fort Bragg period could corroborate combat trauma exposure and document any medical encounters related to behavioral or mental health concerns prior to AWOL."
+    },
+    {
+      "document_type": "Summary Court-Martial Transcript (Jun 2003)",
+      "impact": "Only outcome noted in DOC002. Full transcript may contain mitigating statements, command characterizations, or circumstances presented at trial relevant to the § 3.12(d) dishonorable conditions analysis."
+    }
+  ],
+  "additional_review_recommended": [
+    {
+      "document_type": "Nexus Letter from Treating Provider",
+      "reason": "DOC005 adjudicator explicitly identified a formal medical opinion linking PTSD to the AWOL as the evidentiary prerequisite for Kurta Memo liberal consideration. This is the single highest-impact document not yet in file."
+    },
+    {
+      "document_type": "IDES / Mental Health Review",
+      "reason": "Recommended by Columbus VARO adjudicator in DOC005 before final adjudication. Would provide independent clinical assessment of nexus between service-connected condition and misconduct."
+    }
+  ],
+  "confidence_level": "medium",
+  "confidence_rationale": "DD214 is present with a clear character designation and the discharge basis is well-documented across DOC001 and DOC002. However, circumstances are complex: this is an AWOL case with a mental health nexus claim, a non-final administrative denial, and a critical evidentiary gap — the PTSD diagnosis records referenced in DOC003 are absent from the file. The nexus chain is factually supported but clinically incomplete, warranting a medium rather than high confidence rating."
+}
