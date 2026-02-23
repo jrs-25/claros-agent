@@ -1,6 +1,6 @@
 VA PRIMARY CARE – ANNUAL HEALTH EXAMINATION
 Facility: VA Medical Center, Indianapolis, IN  |  Date of Visit: 14 September 2023
-Veteran: Chen, Maria L.  |  DOB: 22 July 1985  |  VA File No.: 21-000-4492
+Veteran: Murphy, Samuel James  |  DOB: 13 April 1978  |  VA File No.: 21-000-7821
 Provider: Dr. Kevin Okafor, MD, Primary Care  |  Clinic: PC-Blue Team
 
 REASON FOR VISIT:
@@ -23,7 +23,7 @@ REVIEW OF SYSTEMS:
 - Skin: Denies rash or new lesions.
 
 PHYSICAL EXAMINATION:
-- General: Alert, oriented, well-appearing female in no acute distress.
+- General: Alert, oriented, well-appearing male in no acute distress.
 - HEENT: Normocephalic; pupils equal and reactive; oropharynx clear.
 - Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops.
 - Pulmonary: Clear to auscultation bilaterally.
@@ -47,7 +47,7 @@ ASSESSMENT AND PLAN:
 1. Routine wellness exam – no acute findings. Continue current lifestyle measures.
 2. Left knee pain – recommend physical therapy evaluation. Refer to PT clinic.
 3. Lipids within acceptable range – dietary counseling provided; recheck in 12 months.
-4. Screening mammography ordered (age-appropriate); colonoscopy not yet indicated.
+4. Colorectal cancer screening discussed; colonoscopy recommended at next annual visit.
 
 FOLLOW-UP: Return to primary care in 12 months or sooner if symptoms develop.
 
