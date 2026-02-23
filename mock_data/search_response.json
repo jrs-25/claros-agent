@@ -40,5 +40,35 @@
       "date": "2023-06-20",
       "source": "VBMS"
     }
+  ],
+  "1012345679V234567": [
+    {
+      "document_id": "DOC006",
+      "participant_id": "1012345679V234567",
+      "document_type": "VA Medical Record",
+      "title": "Annual Health Examination",
+      "date": "2023-09-14",
+      "source": "VistA"
+    }
+  ],
+  "1012345680V345678": [
+    {
+      "document_id": "DOC007",
+      "participant_id": "1012345680V345678",
+      "document_type": "VA Form 22-1999",
+      "title": "Post-9/11 GI Bill Enrollment Certification",
+      "date": "2023-07-25",
+      "source": "WAVE"
+    }
+  ],
+  "1012345681V456789": [
+    {
+      "document_id": "DOC008",
+      "participant_id": "1012345681V456789",
+      "document_type": "VA Form 26-8320",
+      "title": "Certificate of Eligibility – Home Loan Guaranty",
+      "date": "2024-03-06",
+      "source": "LGY"
+    }
   ]
 }
