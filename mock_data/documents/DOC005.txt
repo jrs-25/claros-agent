@@ -1,0 +1,37 @@
+CHARACTER OF DISCHARGE DETERMINATION – INITIAL ADMINISTRATIVE DECISION
+VA Regional Office: Columbus, OH  |  VA File No.: 21-000-7821  |  Date: 20 June 2023
+Veteran: Murphy, Samuel James  |  DOB: 13 April 1978
+
+ISSUE PRESENTED:
+Whether the veteran's discharge Under Other Than Honorable Conditions (UOTHC) constitutes a bar to VA benefits under 38 U.S.C. § 5303 and 38 C.F.R. § 3.12.
+
+SUMMARY OF FACTS:
+The veteran served in the U.S. Army from March 12, 2001 to August 15, 2003. He was separated under AR 635-200, Chapter 14-12b for Misconduct (AWOL) with a character of service of Under Other Than Honorable Conditions. The period of AWOL lasted 107 days (February 14, 2003 – June 1, 2003). The veteran was tried by Summary Court-Martial and pled guilty to violation of UCMJ Article 86.
+
+APPLICABLE LAW:
+Under 38 C.F.R. § 3.12(c)(6), a dishonorable discharge or a discharge under other than honorable conditions issued as a result of AWOL for a continuous period of at least 180 days constitutes a statutory bar to benefits. The veteran's AWOL period was 107 days, which does not meet the 180-day threshold for a statutory bar.
+
+However, under 38 C.F.R. § 3.12(d), the VA must further evaluate whether the discharge was issued under dishonorable conditions, considering the veteran's overall service record and the circumstances of the separation.
+
+ANALYSIS:
+The veteran's AWOL does not trigger the statutory bar under § 3.12(c)(6) given its duration of 107 days. Under § 3.12(d), this office must weigh the character of the veteran's entire service.
+
+Factors weighing against:
+- AWOL of 107 days represents a significant breach of military duty.
+- Summary Court-Martial conviction for UCMJ Article 86.
+- Prior Article 15 and counseling statements for related misconduct.
+
+Factors weighing in favor:
+- Honorable service during combat deployment (OEF, Sep 2001 – Mar 2002).
+- No prior criminal history.
+- Behavioral Health referral in November 2002 suggests early indicators of mental health difficulty.
+- Veteran submitted VA Form 21-0781 citing combat stressors; PTSD diagnosis from licensed provider dated January 2023 is on file.
+- Veteran voluntarily surrendered to military control.
+
+DECISION:
+This office finds that, on the current record, the veteran's discharge was issued under dishonorable conditions per 38 C.F.R. § 3.12(d), and his claim is denied at this time. However, this decision is non-final. The veteran may submit additional evidence, including nexus evidence linking his AWOL to service-connected mental health conditions, within one year of this decision.
+
+NOTE FOR REVIEWING RATER:
+This case may qualify for liberal consideration under the Kurta Memo (2018) if a nexus between the misconduct and a service-connected mental health condition (PTSD) can be established. An Integrated Disability Evaluation System (IDES) or Mental Health Review is recommended before final adjudication.
+
+Signed: Regional Office Adjudicator, Columbus VARO  |  Date: 2023-06-20

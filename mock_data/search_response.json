@@ -1,0 +1,44 @@
+{
+  "1012345678V123456": [
+    {
+      "document_id": "DOC001",
+      "participant_id": "1012345678V123456",
+      "document_type": "DD214",
+      "title": "Certificate of Release or Discharge from Active Duty",
+      "date": "2003-08-15",
+      "source": "DPRIS"
+    },
+    {
+      "document_id": "DOC002",
+      "participant_id": "1012345678V123456",
+      "document_type": "Military Personnel Record",
+      "title": "Service Record \u2013 Disciplinary Actions",
+      "date": "2003-07-01",
+      "source": "NPRC"
+    },
+    {
+      "document_id": "DOC003",
+      "participant_id": "1012345678V123456",
+      "document_type": "VA Form 21-0781",
+      "title": "Statement in Support of Claim for PTSD",
+      "date": "2023-03-10",
+      "source": "VBMS"
+    },
+    {
+      "document_id": "DOC004",
+      "participant_id": "1012345678V123456",
+      "document_type": "Buddy Statement",
+      "title": "Personal Statement \u2013 Carlos Rivera",
+      "date": "2023-04-02",
+      "source": "VBMS"
+    },
+    {
+      "document_id": "DOC005",
+      "participant_id": "1012345678V123456",
+      "document_type": "Administrative Decision",
+      "title": "Character of Discharge Determination \u2013 Initial Decision",
+      "date": "2023-06-20",
+      "source": "VBMS"
+    }
+  ]
+}
