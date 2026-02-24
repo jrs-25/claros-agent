@@ -1,0 +1,23 @@
+{
+  "bar_admissions": {
+    "extraction_focus": "fitness determination, disqualifying conduct, mitigating factors, rehabilitation evidence",
+    "primary_document_hint": "Look for the bar application or character and fitness disclosure form",
+    "priority_documents": [
+      "Court or criminal records",
+      "Mental health or treatment records",
+      "Personal statement",
+      "Character reference letters",
+      "Employment history or internship verification"
+    ]
+  },
+  "nursing_license_reinstatement": {
+    "extraction_focus": "license revocation basis, patient safety record, rehabilitation evidence, fitness to practice",
+    "primary_document_hint": "Look for the reinstatement application or petition for license restoration",
+    "priority_documents": [
+      "Board disciplinary order or revocation notice",
+      "Substance abuse or mental health treatment records",
+      "Employer or supervisor references",
+      "Personal statement or reinstatement petition"
+    ]
+  }
+}

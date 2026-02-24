@@ -17,14 +17,19 @@ You have access to two MCP servers:
 ### claros-agent (data retrieval)
 
 1. **search** — Search for documents in an applicant's application file
-   - Parameters: `participant_id` (string)
-   - Returns: List of document metadata records, each with:
-     - `document_id` — Use this to retrieve full text
-     - `participant_id`
-     - `document_type` — Human-readable type (e.g., "Bar Application Form", "Personal Statement")
-     - `title` — Document title
-     - `date` — Document date
-     - `source` — Source system (CMS, StateCourtDB, BarFileServer, etc.)
+   - Parameters: `participant_id` (string, required), `case_type` (string, optional)
+   - Returns an object with:
+     - `documents` — list of document metadata records, each with:
+       - `document_id` — Use this to retrieve full text
+       - `participant_id`
+       - `document_type` — Human-readable type (e.g., "Bar Application Form", "Personal Statement")
+       - `title` — Document title
+       - `date` — Document date
+       - `source` — Source system (CMS, StateCourtDB, BarFileServer, etc.)
+     - `case_config` *(present only when `case_type` is provided and recognized)* — object with:
+       - `extraction_focus` — the lens to apply when reading and summarizing documents
+       - `primary_document_hint` — guidance for identifying the anchor document from the metadata (may be empty string)
+       - `priority_documents` — ranked list of document types to prioritize after reading the anchor document (may be empty array)
 
 2. **retrieve_text_content** — Get full text content from a specific document
    - Parameters: `document_id` (string, from search results)
@@ -34,13 +39,19 @@ You have access to two MCP servers:
 
 ## Standard Workflow
 
-1. **Search** — call `search` with `participant_id` to retrieve the metadata list.
+1. **Search** — call `search` with `participant_id` (and `case_type` if known) to retrieve the document metadata and any case configuration.
 
-2. **Identify the bar application** — read the metadata to find the document that represents the applicant's bar application form. Use the document type and title to identify it; do not assume a fixed document ID.
+2. **Apply case config if present** — if the response includes a `case_config` object:
+   - Use `extraction_focus` as the lens for all document retrieval and summarization throughout the case.
+   - If `primary_document_hint` is a non-empty string, use it to identify the anchor document from the metadata.
+   - If `primary_document_hint` is empty, identify the anchor document by reasoning from the metadata.
+   - If `priority_documents` is a non-empty array, use it as a ranked guide when triaging remaining documents after reading the anchor document.
+   - If `priority_documents` is empty, triage remaining documents freely based on what the anchor document reveals.
+   - If no `case_config` is present, reason freely from the metadata and case context for all steps below.
 
-3. **Retrieve the bar application first** — call `retrieve_text_content` on the bar application and read the raw text directly. Use this document to understand what happened, when, what issues are flagged, and what the current fitness determination is.
+3. **Retrieve the anchor document first** — call `retrieve_text_content` on the anchor document and read the raw text directly. Use this document to understand what happened, when, what issues are flagged, and what the current determination status is.
 
-4. **Select remaining documents** — based on what you learned from the bar application, decide which other documents in the metadata list are relevant to the flagged issues. Use your judgment about what the case requires; do not retrieve documents that are unlikely to bear on the character and fitness issues in play.
+4. **Select remaining documents** — based on what you learned from the anchor document (and guided by `priority_documents` if present), decide which other documents in the metadata are relevant. Do not retrieve documents unlikely to bear on the issues in play.
 
 5. **Retrieve targeted documents** — call `retrieve_text_content` in parallel for the documents selected in step 4 and read the raw text of each directly.
 
