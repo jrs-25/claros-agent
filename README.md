@@ -25,23 +25,6 @@ The current mock data and system instructions use **bar admissions character and
 
 ---
 
-## Applying This Pattern to Other Domains
-
-The same architecture supports any eligibility workflow that follows the structure:
-
-> **trigger document** → **disqualification threshold analysis** → **mitigating factors** → **recommendation summary for human reviewer**
-
-| Domain | Trigger Document | Disqualification Framework | Mitigating Factors |
-|---|---|---|---|
-| Bar admissions | Bar application form | Rules of Admission (mandatory / discretionary) | Rehabilitation, character references, mental health treatment |
-| VA character of discharge | DD-214 | 38 C.F.R. § 3.12 (statutory / regulatory bar) | Service-connected mental health, combat record, compelling circumstances |
-| VA toxic exposure | Service records | PACT Act eligibility criteria | Deployment records, nexus evidence, personal statements |
-| Personal trauma evidence | Incident report / treatment records | Regulatory benefit threshold | Medical records, lay statements, timeline evidence |
-
-To adapt to a new domain: update the system instructions in `agent/`, replace the mock data in `mock_data/`, and adjust the `extraction_focus` passed to the `summarize` tool.
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
