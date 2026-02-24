@@ -10,10 +10,12 @@ Eligibility determinations — whether for bar admission, VA benefits, professio
 
 This project demonstrates an agentic workflow in which Claude Code:
 
-1. Calls a `search` MCP tool to retrieve document metadata for an applicant participant ID
-2. Calls `retrieve_text_content` in parallel for each document
-3. Calls `summarize` in parallel for each document, passing a uniform extraction focus
-4. Compiles the summaries into a structured character and fitness analysis report saved to `output/`
+1. Calls `search` to retrieve document metadata for an applicant participant ID
+2. Identifies and retrieves the bar application form first
+3. Summarizes the bar application to understand what issues are flagged and why
+4. Selects which remaining documents are relevant to those issues
+5. Retrieves and summarizes only the targeted documents in parallel
+6. Compiles findings into a structured character and fitness analysis report saved to `output/`
 
 The MCP server ships with realistic mock data modeled after actual bar admissions document types. No real applicant data is used.
 
@@ -90,8 +92,9 @@ and fitness analysis summary.
 
 Claude Code will:
 - Call `search` → receive document metadata records
-- Call `retrieve_text_content` for each document (in parallel)
-- Synthesize the full record into a character and fitness analysis
+- Retrieve and summarize the bar application to understand the case
+- Select and retrieve only the documents relevant to the flagged issues
+- Compile findings into a character and fitness analysis
 - Write the output to `output/`
 
 ---
