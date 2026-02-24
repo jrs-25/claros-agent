@@ -1,7 +1,9 @@
 import asyncio
 import json
+import os
 from pathlib import Path
 
+import anthropic
 import mcp.types as types
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
@@ -59,7 +61,7 @@ async def list_tools() -> list[types.Tool]:
                 "Search for documents associated with an applicant participant ID. "
                 "Returns a list of document metadata records and, if case_type is provided "
                 "and matches a known config, a case_config object with extraction guidance. "
-                "Use retrieve_text_content with a document_id to fetch the full text of any document."
+                "Use summarize_document with a document_id to get a focused summary of any document."
             ),
             inputSchema={
                 "type": "object",
@@ -94,6 +96,27 @@ async def list_tools() -> list[types.Tool]:
                 "required": ["document_id"],
             },
         ),
+        types.Tool(
+            name="summarize_document",
+            description=(
+                "Retrieve a document by its document_id and return a concise summary "
+                "focused on content relevant to the provided extraction_focus."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "document_id": {
+                        "type": "string",
+                        "description": "The document_id returned by search.",
+                    },
+                    "extraction_focus": {
+                        "type": "string",
+                        "description": "The summarization lens — what to extract and why.",
+                    },
+                },
+                "required": ["document_id", "extraction_focus"],
+            },
+        ),
     ]
 
 
@@ -117,6 +140,25 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
         if text is None:
             return [types.TextContent(type="text", text=f"Error: document '{document_id}' not found.")]
         return [types.TextContent(type="text", text=text)]
+
+    if name == "summarize_document":
+        document_id = arguments["document_id"]
+        extraction_focus = arguments["extraction_focus"]
+        text = _load_document_text(document_id)
+        if text is None:
+            return [types.TextContent(type="text", text=f"Error: document '{document_id}' not found.")]
+        client = anthropic.AsyncAnthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+        message = await client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=512,
+            system=(
+                f"You are a document summarizer. Extract only information relevant to: {extraction_focus}. "
+                "Return a concise summary of one to three sentences. Do not include information outside the extraction focus."
+            ),
+            messages=[{"role": "user", "content": text}],
+        )
+        summary = message.content[0].text
+        return [types.TextContent(type="text", text=summary)]
 
     raise ValueError(f"Unknown tool: {name}")
 
