@@ -1,0 +1,194 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Jordan Reed Taylor",
+  "date_of_birth": "1995-08-22",
+  "bar_file_no": "CF-2023-78901",
+  "application_received": "2023-07-12",
+  "bar_exam_result": "Passed (July 2023)",
+  "mpre_score": "96 (Passed)",
+
+  "fitness_determination": {
+    "status": "DEFERRED",
+    "date": "2023-12-18",
+    "authority": "State Board of Bar Examiners",
+    "is_final": false,
+    "issue_code": "CF-CRIM-DUI"
+  },
+
+  "flag_reason": "Criminal conduct: DUI conviction with mandatory disclosure (Case No. CR-2020-04471); Academic matter: Plagiarism allegation resolved in applicant's favor",
+
+  "disciplinary_history": {
+    "summary": "One criminal conviction",
+    "criminal": [
+      {
+        "incident_date": "2020-08-14",
+        "offense": "DUI—Driving Under the Influence of Alcohol (Misdemeanor)",
+        "jurisdiction": "[County] County Court",
+        "case_no": "CR-2020-04471",
+        "disposition": "Convicted; guilty plea entered",
+        "sentence": "12 months probation, $1,200 fine, 90-day driver's license suspension, mandatory alcohol education program",
+        "probation_completion_date": "2021-08-14",
+        "probation_status": "Completed without incident",
+        "applicant_disclosure": "Yes—self-disclosed on bar application (taylor-001)"
+      }
+    ],
+    "academic": [
+      {
+        "incident_date": "2021-02-03",
+        "matter": "Academic probation—First-year Contracts course; alleged plagiarism",
+        "institution": "State University School of Law",
+        "disposition": "Academic Standards Committee review completed; applicant provided documentation demonstrating good-faith citation error",
+        "resolution_date": "2021-04-15",
+        "transcript_notation": "No—removed per Committee determination",
+        "applicant_disclosure": "Yes—self-disclosed on bar application (taylor-001)",
+        "current_status": "No permanent record"
+      }
+    ],
+    "subsequent_offenses": "None reported"
+  },
+
+  "mental_health": {
+    "disclosure_status": "Documented; applicant sought treatment voluntarily",
+    "clinical_evaluation": {
+      "provider": "Dr. Elena Reyes, PsyD",
+      "license_no": "[State] PSY-34821",
+      "document_id": "taylor-003",
+      "treatment_period": "2020-10-12 to 2023-06-15",
+      "total_sessions": 42,
+      "modality": "Cognitive Behavioral Therapy (CBT) with Acceptance and Commitment Therapy (ACT)",
+      "primary_diagnosis": "Generalized Anxiety Disorder (GAD), moderate severity (DSM-5 300.02)",
+      "secondary_diagnosis": "Adjustment Disorder with Anxious Mood, situational (DSM-5 309.24)",
+      "clinical_course": "Three-phase treatment: Stabilization (Oct 2020–Mar 2021); Consolidation (Apr 2021–Dec 2021); Maintenance (Jan 2022–Jun 2023)",
+      "treatment_outcome": "GAD symptoms clinically sub-threshold by March 2023; Adjustment disorder resolved",
+      "abstinence": "No alcohol-related incidents since treatment began; applicant reports abstinence from alcohol since November 2020 (taylor-004)",
+      "discharge_status": "Clinical discharge; Treatment Completion Certificate issued 2023-06-15",
+      "clinician_assessment": "Dr. Reyes (2023-06-15): 'Jordan Taylor has demonstrated consistent engagement in treatment over nearly three years... the DUI incident occurred during an acute period of personal loss and stress, which was an atypical departure from the applicant's baseline functioning... The applicant's character and commitment to rehabilitation are genuine.' Recommends 'this applicant for any professional role requiring sound judgment and ethical conduct.' (taylor-003)"
+    }
+  },
+
+  "mitigating_factors": {
+    "contextual_stressors_at_time_of_incident": [
+      "Mother diagnosed with Stage 3 breast cancer (June 2020)",
+      "College roommate and close friend died of cardiac event at age 24 (July 2020)",
+      "Significant stress associated with law school entry (commenced 3 days after DUI incident)",
+      "Applicant self-reported: 'I was not processing any of this in a healthy way. I was not sleeping. I was isolating. I was not okay, and I did not ask for help.' (taylor-004)"
+    ],
+    "rehabilitation_efforts": [
+      "Entered therapy voluntarily within 8 weeks of arrest (October 2020)",
+      "Sustained engagement in professional mental health treatment for nearly 3 years (42 sessions)",
+      "Successfully completed alcohol education program as part of probation (completed 2021-08-14)",
+      "Completed probation without violation or incident",
+      "Abstained from alcohol since November 2020 (stated in personal statement, taylor-004)",
+      "Engaged in values-based community service: volunteering with Big Brothers Big Sisters beginning September 2021 (noted in taylor-003)"
+    ],
+    "pattern_analysis": "Single isolated incident during acute personal crisis, not reflective of baseline functioning; no subsequent criminal history; no alcohol-related incidents post-treatment initiation"
+  },
+
+  "character_evidence": {
+    "professional_performance": {
+      "internship_evaluation": {
+        "employer": "Hernandez & Associates, Attorneys at Law",
+        "supervisor": "Maria Hernandez, J.D. (Managing Partner; Bar No. 0091234)",
+        "document_id": "taylor-007",
+        "period": "2022-05-15 to 2022-08-12 (12 weeks)",
+        "position": "Part-Time Paralegal Intern (Law School Externship Credit)",
+        "hours": 408.2,
+        "practice_areas": [
+          "Immigration Law (168 hours)",
+          "Family Law (94 hours)",
+          "Civil Rights Law (112 hours)"
+        ],
+        "performance_ratings": {
+          "legal_research_quality": "5/5 Outstanding",
+          "written_communication": "5/5 Outstanding",
+          "oral_communication": "4/5 Exceeds Expectations",
+          "client_interaction": "5/5 Outstanding",
+          "organizational_skills": "4/5 Exceeds Expectations",
+          "attention_to_deadlines": "5/5 Outstanding",
+          "initiative_and_proactivity": "4/5 Exceeds Expectations",
+          "adherence_to_firm_policies": "5/5 Outstanding",
+          "professionalism_and_demeanor": "5/5 Outstanding",
+          "overall_performance": "5/5 Outstanding"
+        },
+        "supervisory_comments": "Ms. Hernandez (final, 2022-08-10): 'Jordan Taylor concludes this internship as one of the most capable and professional law student interns this firm has hosted in its eighteen-year history... demonstrated the kind of ethical judgment and client sensitivity that distinguishes an exceptional attorney... No complaints, concerns, or incidents of any kind were recorded during the internship period.' (taylor-007)",
+        "attendance": "1 excused absence, 0 unexcused, 0 late arrivals, 0 early departures",
+        "policy_compliance": "All firm policies followed; no disciplinary incidents; no data handling concerns; no conflicts of interest",
+        "rehire_status": "Yes—unconditional",
+        "character_reference": "Ms. Hernandez indicated intention to submit formal character reference letter directly to Board of Bar Examiners, attesting to applicant's professional character and fitness based on direct supervisory experience (taylor-007)"
+      }
+    },
+    "academic_performance": {
+      "law_school": "State University School of Law",
+      "document_id": "taylor-009",
+      "entry": "2020-08-17",
+      "graduation": "2023-05-12",
+      "degree": "Juris Doctor (J.D.)",
+      "gpa": "3.41 / 4.00",
+      "class_rank": "Top 35% (ranked 62 of 189 graduates)",
+      "academic_standing": "Good Standing",
+      "performance_trajectory": "Grade progression from B/B+ in 1L to consistent A/A- in 2L and 3L; particularly strong performance in Professional Responsibility (A) and Legal Ethics Seminar (A); Externship grade: A",
+      "note_on_plagiarism_matter": "Probation notation removed per Committee determination (2021-04-15); no permanent record annotation on official transcript (taylor-009)"
+    },
+    "moral_fitness": {
+      "mpre_score": "96 (passing score 85) (taylor-010)",
+      "examination_date": "March 2023",
+      "result": "PASS"
+    },
+    "personal_accountability": {
+      "self_disclosure": "Applicant voluntarily disclosed both DUI conviction and academic matter on bar application without minimization (taylor-001)",
+      "personal_statement": "Applicant provided detailed personal statement (taylor-004) acknowledging incident, contextual stressors, accountability for poor judgment, and sustained rehabilitation efforts; offered personal interview to Board"
+    }
+  },
+
+  "outstanding_requirements": [
+    "Full character and fitness committee review (currently deferred)",
+    "Board decision on whether DUI conviction warrants fitness determination in applicant's favor"
+  ],
+
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "retrieved": true
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "retrieved": true
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "retrieved": true
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "retrieved": true
+    },
+    {
+      "document_id": "taylor-009",
+      "document_type": "Academic Record",
+      "title": "Law School Transcript – Jordan Reed Taylor",
+      "date": "2023-06-01",
+      "retrieved": true
+    },
+    {
+      "document_id": "taylor-010",
+      "document_type": "Examination Record",
+      "title": "MPRE Score Report – Jordan Reed Taylor",
+      "date": "2023-05-15",
+      "retrieved": true
+    }
+  ],
+
+  "analysis_summary": "Applicant disclosed a single DUI conviction (August 2020) during a documented period of acute personal crisis (mother's cancer diagnosis, close friend's death, law school entry) that occurred one week before matriculation. Probation was completed without incident (August 2021). Applicant voluntarily entered mental health treatment within 8 weeks of arrest and maintained engagement for nearly three years under clinical supervision. Treatment provider (Dr. Elena Reyes, PsyD) concludes that the incident was an atypical departure from baseline functioning and characterizes applicant's commitment to rehabilitation as genuine. No subsequent criminal history or alcohol-related incidents documented post-treatment. Academic plagiarism matter was resolved in applicant's favor (citation error, not intentional plagiarism); probation notation removed from transcript. Post-incident conduct demonstrates strong character: (1) Law school performance improved across three years, culminating in Top 35% class rank and Good Standing; (2) Paralegal internship performance rated Outstanding across all metrics by supervising attorneys at reputable firm with 18-year history; (3) Managing partner indicates willingness to provide formal character reference to Board; (4) MPRE score 96 (11 points above passing threshold); (5) Self-disclosure of both issues on bar application without minimization; (6) Personal accountability and engagement in sustained rehabilitation. Board remains the decision-maker on fitness determination; this analysis presents documented evidence for review."
+}
