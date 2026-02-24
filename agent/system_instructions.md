@@ -43,13 +43,17 @@ You have access to two MCP servers:
 
 ## Standard Workflow
 
-Process **every** document through the full three-step pipeline. There are no exceptions by document type — the bar application form and all other documents are handled identically:
+1. **Search** — call `search` with `participant_id` to retrieve the metadata list.
 
-1. **search** with `participant_id` → retrieve metadata list
-2. **retrieve_text_content** for each document → retrieve raw text
-3. **summarize** for each document → extract character and fitness-relevant information
+2. **Identify the bar application** — read the metadata to find the document that represents the applicant's bar application form. Use the document type and title to identify it; do not assume a fixed document ID.
 
-Run steps 2 and 3 in parallel across all documents where possible. Pass the same `extraction_focus` to every `summarize` call for consistency across the case.
+3. **Retrieve and summarize the bar application first** — call `retrieve_text_content` then `summarize` on the bar application before proceeding. Use this document to understand what happened, when, what issues are flagged, and what the current fitness determination is.
+
+4. **Select remaining documents** — based on what you learned from the bar application, decide which other documents in the metadata list are relevant to the flagged issues. Use your judgment about what the case requires; do not retrieve documents that are unlikely to bear on the character and fitness issues in play.
+
+5. **Retrieve and summarize targeted documents** — call `retrieve_text_content` and `summarize` in parallel for the documents selected in step 4. Pass the same `extraction_focus` to every `summarize` call.
+
+6. **Generate the determination summary** — compile findings from all summarized documents into a structured report with a JSON output at the end.
 
 Recommended `extraction_focus` for character and fitness cases:
 > "Character and fitness determination: extract fitness determination status, application issue type and authority, deferral or denial reason, application period, disciplinary history, mental health references, mitigating factors, and character evidence"
