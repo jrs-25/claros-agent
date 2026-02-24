@@ -1,0 +1,41 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Taylor, Jordan Reed",
+  "analysis_date": "2026-02-24",
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "summary": "Application deferred 2023-12-18 under CF-CRIM-DUI; discloses 2020 DUI misdemeanor (probation completed 2021-08-14) and 2021 academic probation (resolved in applicant's favor, no transcript notation)."
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "summary": "42 CBT sessions (Oct 2020–Jun 2023) for GAD and situational Adjustment Disorder; clinician attributes DUI to acute crisis period, not a conduct pattern, and issued Treatment Completion Certificate 2023-06-15."
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "summary": "Applicant accepts full responsibility for DUI, contextualizes it within concurrent family crisis, reports sobriety since November 2020, and references separately submitted probation completion report (Officer L. Vasquez, CR-2020-04471)."
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "summary": "12-week internship (May–Aug 2022) rated Outstanding overall by supervising attorneys across three practice areas; zero unexcused absences, zero policy violations, unconditional rehire eligibility."
+    }
+  ],
+  "overall_summary": "Application deferred pending C&F review on single DUI misdemeanor (2020, probation completed). Three years of sustained treatment, no recidivism, outstanding professional conduct record, and voluntary full disclosure support rehabilitation. Academic matter resolved without findings.",
+  "missing_evidence": [
+    "Probation completion report from Supervising Officer L. Vasquez (CR-2020-04471) — referenced in taylor-004 as submitted separately; not present in application folder",
+    "Treatment Completion Certificate from Dr. Elena Reyes, PsyD (issued 2023-06-15) — referenced in taylor-003 as submitted separately; not present in application folder",
+    "Character reference letter from Maria Hernandez, J.D. (Bar No. 0091234) — indicated as forthcoming in taylor-007; not present in application folder"
+  ]
+}
