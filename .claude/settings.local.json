@@ -8,13 +8,13 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "mcp__claros-summarizer__summarize",
-      "Bash(git remote remove origin)"
+"Bash(git remote remove origin)",
+      "Bash(git -C /Users/joelrsadler/claros-agent add output/jordan_taylor_CF_analysis.md && git -C /Users/joelrsadler/claros-agent commit -m \"$\\(cat <<'EOF'\nUpdate Jordan Taylor C&F analysis with current document IDs and workflow\n\nReplaces prior analysis \\(which referenced stale DOC001-DOC008 IDs\\) with\noutput from the current direct-retrieval workflow using taylor-00x document\nIDs. Includes structured JSON output and outstanding requirements checklist.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF)",
+      "Bash(git -C /Users/joelrsadler/claros-agent add agent/system_instructions.md && git -C /Users/joelrsadler/claros-agent commit -m \"$\\(cat <<'EOF'\nEnforce strict output schema in system instructions\n\nAdd explicit constraints against adding fields or expanding the schema,\nto prevent the agent from reverting to a verbose output format.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git -C /Users/joelrsadler/claros-agent push)"
     ]
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "claros-agent",
-    "claros-summarizer"
+    "claros-agent"
   ]
 }

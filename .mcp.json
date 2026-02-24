@@ -3,10 +3,6 @@
     "claros-agent": {
       "command": "/Users/joelrsadler/anaconda3/bin/python3",
       "args": ["mcp_server/server.py"]
-    },
-    "claros-summarizer": {
-      "command": "/Users/joelrsadler/anaconda3/bin/python3",
-      "args": ["mcp_server/summarizer_server.py"]
     }
   }
 }
