@@ -61,7 +61,7 @@ You have access to two MCP servers:
 
 ## Output Format
 
-Return only this JSON structure. No prose, no headings, no explanation outside the JSON.
+Return only this JSON structure. Do not add fields. Do not add prose, headings, or explanation outside the JSON. Do not expand the schema.
 
 ```json
 {
