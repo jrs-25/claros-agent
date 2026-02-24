@@ -1,7 +1,7 @@
 {
   "APP-2023-78901": [
     {
-      "document_id": "DOC001",
+      "document_id": "taylor-001",
       "participant_id": "APP-2023-78901",
       "document_type": "Bar Application Form",
       "title": "Bar Application – Character and Fitness Disclosure",
@@ -9,15 +9,7 @@
       "source": "BarFileServer"
     },
     {
-      "document_id": "DOC002",
-      "participant_id": "APP-2023-78901",
-      "document_type": "Court Record",
-      "title": "Court Record – DUI Conviction and Sentencing",
-      "date": "2020-11-04",
-      "source": "StateCourtDB"
-    },
-    {
-      "document_id": "DOC003",
+      "document_id": "taylor-003",
       "participant_id": "APP-2023-78901",
       "document_type": "Mental Health / Treatment Record",
       "title": "Mental Health Treatment Records – Anxiety Disorder",
@@ -25,7 +17,7 @@
       "source": "CMS"
     },
     {
-      "document_id": "DOC004",
+      "document_id": "taylor-004",
       "participant_id": "APP-2023-78901",
       "document_type": "Personal Statement",
       "title": "Personal Statement – Jordan Taylor",
@@ -33,23 +25,7 @@
       "source": "CMS"
     },
     {
-      "document_id": "DOC005",
-      "participant_id": "APP-2023-78901",
-      "document_type": "Committee Determination Letter",
-      "title": "Character and Fitness Determination – Initial Decision",
-      "date": "2023-12-18",
-      "source": "CMS"
-    },
-    {
-      "document_id": "DOC006",
-      "participant_id": "APP-2023-78901",
-      "document_type": "Character Reference Letter",
-      "title": "Character Reference – Prof. Sandra Williams, State University School of Law",
-      "date": "2023-07-08",
-      "source": "BarFileServer"
-    },
-    {
-      "document_id": "DOC007",
+      "document_id": "taylor-007",
       "participant_id": "APP-2023-78901",
       "document_type": "Employment History Record",
       "title": "Paralegal Internship Verification – Hernandez & Associates",
@@ -57,12 +33,28 @@
       "source": "BarFileServer"
     },
     {
-      "document_id": "DOC008",
+      "document_id": "taylor-009",
       "participant_id": "APP-2023-78901",
-      "document_type": "Character Reference Letter",
-      "title": "Character Reference – Big Brothers Big Sisters Volunteer Coordinator",
-      "date": "2023-07-05",
-      "source": "CommunityService"
+      "document_type": "Academic Record",
+      "title": "Law School Transcript – Jordan Reed Taylor",
+      "date": "2023-06-01",
+      "source": "BarFileServer"
+    },
+    {
+      "document_id": "taylor-010",
+      "participant_id": "APP-2023-78901",
+      "document_type": "Examination Record",
+      "title": "MPRE Score Report – Jordan Reed Taylor",
+      "date": "2023-05-15",
+      "source": "BarFileServer"
+    },
+    {
+      "document_id": "taylor-011",
+      "participant_id": "APP-2023-78901",
+      "document_type": "Administrative Record",
+      "title": "Bar Exam Application Fee Receipt",
+      "date": "2023-07-12",
+      "source": "BarFileServer"
     }
   ]
 }

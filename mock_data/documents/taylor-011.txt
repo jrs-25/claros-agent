@@ -1,0 +1,28 @@
+BAR EXAM APPLICATION FEE RECEIPT
+[State] Board of Bar Examiners
+
+Receipt No.: 2023-BAR-041892
+Date: 12 July 2023
+
+APPLICANT INFORMATION:
+Name: Taylor, Jordan Reed
+Bar File No.: CF-2023-78901
+Address: 814 Cypress Avenue, Apt 3B, Springfield, [State] 62704
+
+PAYMENT DETAILS:
+Application Type: July 2023 Bar Examination
+Fee Description: Bar Examination Application Fee
+Amount Paid: $750.00
+Payment Method: Electronic Check
+Transaction ID: ACH-20230712-884421
+Payment Status: CONFIRMED
+
+EXAMINATION DETAILS:
+Examination: [State] Bar Examination
+Scheduled Administration: July 2023
+Examination Location: [State] Bar Examination Center, Springfield, [State]
+
+This receipt confirms that payment has been received and applied to the applicant's bar examination file. Retain this document for your records.
+
+Issued by: [State] Board of Bar Examiners – Finance Office
+Date: 12 July 2023
