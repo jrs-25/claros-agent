@@ -12,8 +12,8 @@ This project demonstrates an agentic workflow in which Claude Code:
 
 1. Calls a `search` MCP tool to retrieve document metadata for an applicant participant ID
 2. Calls `retrieve_text_content` in parallel for each document
-3. Analyzes the full document set — mandatory and discretionary disqualification thresholds, factors for and against, mitigating factors timeline — without any scripted prompting
-4. Produces a structured character and fitness analysis report saved to `output/`
+3. Calls `summarize` in parallel for each document, passing a uniform extraction focus
+4. Compiles the summaries into a structured character and fitness analysis report saved to `output/`
 
 The MCP server ships with realistic mock data modeled after actual bar admissions document types. No real applicant data is used.
 
@@ -116,16 +116,15 @@ Output: Full text of the document
 
 ## Example Output
 
-The file `output/fitness_analysis_taylor_jordan.md` shows a full run against the mock dataset. Highlights:
+The file `output/jordan_taylor_CF_analysis.md` shows a full run against the mock dataset. The report covers:
 
-**Mandatory disqualification finding:**
-> The DUI conviction (single offense, misdemeanor) does not trigger a mandatory disqualification under the Rules of Admission. The case turns on the discretionary disqualification analysis and the totality of the applicant's character record.
-
-**Mitigating factors assessment:**
-> The temporal sequence — law school stress (2020) → DUI incident (Aug 2020) → voluntary treatment (Oct 2020) → sustained rehabilitation (2020–present) — is consistent with a mitigating factors argument. Character references and clean record since the incident substantially support admission.
-
-**Overall finding:**
-> Strong factual basis for a favorable fitness determination, but the initial deferral stands because a formal rehabilitation attestation from the treating therapist has not yet been filed. Priority action: obtain character reference letter from Dr. Reyes before the one-year evidence submission window closes.
+- **Fitness determination status** — current Board determination, issue code, and deferral reason
+- **Disciplinary history** — criminal and academic incidents with dispositions, sourced to specific document IDs
+- **Mental health record** — diagnosis, treatment duration, clinician assessment
+- **Mitigating factors** — full enumeration with document citations
+- **Character evidence** — referee observations keyed to each reference document
+- **Outstanding requirements** — items still needed before a final determination can be issued
+- **Structured JSON output** — machine-readable summary of all findings
 
 ---
 
@@ -142,7 +141,7 @@ claros-agent/
 │   ├── search_response.json       # Mock search index
 │   └── documents/                 # Mock applicant documents (DOC001–DOC008)
 ├── output/
-│   └── fitness_analysis_taylor_jordan.md   # Example agent output
+│   └── jordan_taylor_CF_analysis.md        # Example agent output
 ├── .mcp.json                      # MCP server registration for Claude Code
 ├── requirements.txt               # Python dependencies
 └── CLAUDE.md                      # Project instructions for Claude Code
