@@ -1,0 +1,51 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Jordan Reed Taylor",
+  "analysis_date": "2026-02-24",
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "summary": "Applicant self-disclosed DUI conviction (August 2020, CR-2020-04471) and academic plagiarism allegation (2021), with probation completed and academic matter resolved; fitness determination currently deferred pending full review."
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "summary": "Licensed clinical psychologist Dr. Elena Reyes documented 42 therapy sessions (October 2020–June 2023) for Generalized Anxiety Disorder, concluding the DUI was an atypical incident during acute personal crisis with genuine commitment to rehabilitation."
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "summary": "Applicant provided detailed personal accountability statement addressing the DUI incident's contextual stressors (mother's cancer diagnosis, close friend's death), sustained treatment engagement, and abstinence from alcohol since November 2020."
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "summary": "Paralegal internship at Hernandez & Associates (May–August 2022) rated Outstanding across all performance metrics by supervising attorneys; managing partner indicated intention to provide formal character reference to the Board."
+    },
+    {
+      "document_id": "taylor-009",
+      "document_type": "Academic Record",
+      "title": "Law School Transcript – Jordan Reed Taylor",
+      "date": "2023-06-01",
+      "summary": "Law school transcript shows Top 35% class rank (3.41 GPA), grade progression from B/B+ in first year to consistent A/A- in upper years, and academic probation notation removed with no permanent record."
+    },
+    {
+      "document_id": "taylor-010",
+      "document_type": "Examination Record",
+      "title": "MPRE Score Report – Jordan Reed Taylor",
+      "date": "2023-05-15",
+      "summary": "Multistate Professional Responsibility Examination score of 96 (11 points above passing threshold of 85), demonstrating competency in professional ethics and responsibility standards required for bar admission."
+    }
+  ],
+  "overall_summary": "Applicant disclosed DUI conviction (August 2020) during acute personal crisis; completed probation without incident. Voluntarily sought mental health treatment for three years; provider characterizes incident as atypical. Post-incident conduct strong: Top 35% law school rank, Outstanding paralegal internship, MPRE 96. Academic matter resolved in applicant's favor.",
+  "missing_evidence": []
+}
