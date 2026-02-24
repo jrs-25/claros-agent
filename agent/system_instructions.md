@@ -30,15 +30,6 @@ You have access to two MCP servers:
    - Parameters: `document_id` (string, from search results)
    - Returns: Full raw text of the document
 
-### claros-summarizer (LLM summarization)
-
-3. **summarize** — Send document text to an Anthropic model for focused extraction
-   - Parameters:
-     - `document_text` (string) — raw text returned by `retrieve_text_content`
-     - `extraction_focus` (string) — task context describing what to extract and why
-     - `model` (string) — Anthropic model ID (e.g. `claude-haiku-4-5-20251001`)
-   - Returns: Focused summary containing only information relevant to the extraction focus
-
 ---
 
 ## Standard Workflow
@@ -47,16 +38,13 @@ You have access to two MCP servers:
 
 2. **Identify the bar application** — read the metadata to find the document that represents the applicant's bar application form. Use the document type and title to identify it; do not assume a fixed document ID.
 
-3. **Retrieve and summarize the bar application first** — call `retrieve_text_content` then `summarize` on the bar application before proceeding. Use this document to understand what happened, when, what issues are flagged, and what the current fitness determination is.
+3. **Retrieve the bar application first** — call `retrieve_text_content` on the bar application and read the raw text directly. Use this document to understand what happened, when, what issues are flagged, and what the current fitness determination is.
 
 4. **Select remaining documents** — based on what you learned from the bar application, decide which other documents in the metadata list are relevant to the flagged issues. Use your judgment about what the case requires; do not retrieve documents that are unlikely to bear on the character and fitness issues in play.
 
-5. **Retrieve and summarize targeted documents** — call `retrieve_text_content` and `summarize` in parallel for the documents selected in step 4. Pass the same `extraction_focus` to every `summarize` call.
+5. **Retrieve targeted documents** — call `retrieve_text_content` in parallel for the documents selected in step 4 and read the raw text of each directly.
 
-6. **Generate the determination summary** — compile findings from all summarized documents into the JSON output format below. Return only the JSON with no additional text or explanation outside of it.
-
-Recommended `extraction_focus` for character and fitness cases:
-> "Character and fitness determination: extract fitness determination status, application issue type and authority, deferral or denial reason, application period, disciplinary history, mental health references, mitigating factors, and character evidence"
+6. **Generate the determination summary** — synthesize findings from all retrieved documents into the JSON output format below. Return only the JSON with no additional text or explanation outside of it.
 
 ---
 
