@@ -1,0 +1,41 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Jordan Reed Taylor",
+  "analysis_date": "2026-02-24",
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "summary": "Applicant voluntarily disclosed a 2020 DUI conviction (probation completed 2021) and a resolved academic probation matter, with no subsequent incidents and demonstrated rehabilitation."
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "summary": "42 sessions of CBT/ACT over nearly three years achieved clinical resolution of anxiety disorder; treating clinician opined the applicant demonstrated genuine rehabilitation and is fit for professional roles requiring sound judgment."
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "summary": "Applicant contextualized the 2020 DUI within acute personal crises, documented proactive disclosure of all conduct issues, sustained sobriety since November 2020, and articulated demonstrated insight and commitment to ethical practice."
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "summary": "12-week internship completed with outstanding ratings across all competencies; no conduct or disciplinary issues; managing partner confirmed impeccable adherence to firm policies and exceptional ethical judgment."
+    }
+  ],
+  "overall_summary": "Applicant discloses a 2020 DUI and resolved academic probation; mitigating factors include acute personal crises, proactive disclosure, completed probation, sustained sobriety, clinical treatment, and outstanding professional conduct during internship.",
+  "missing_evidence": [
+    "Court or criminal records confirming DUI disposition and probation completion",
+    "Character reference letters (managing partner indicated intent to submit one but none present in file)",
+    "Academic disciplinary records documenting resolution of the plagiarism matter"
+  ]
+}
