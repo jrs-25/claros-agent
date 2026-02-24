@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "participant_id": "APP-2023-78901",
+    "applicant_name": "Taylor, Jordan Reed",
+    "instructions_version": "local_testing_v2",
+    "instructions_file": "agent/system_instructions_v2.md",
+    "analysis_date": "2026-02-24"
+  },
+  "applicant_info": {
+    "name": "Taylor, Jordan Reed",
+    "participant_id": "APP-2023-78901",
+    "law_school": "State University School of Law",
+    "application_period": "2020-08-17 to 2023-05-12",
+    "current_fitness_determination": "Deferred – Pending Character and Fitness Review"
+  },
+  "search_summary": {
+    "total_documents_found": 5,
+    "documents_analyzed": 5,
+    "documents_skipped": 0
+  },
+  "documents_analyzed": [
+    {
+      "document_id": "DOC001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "source": "BarFileServer",
+      "summary": "Applicant graduated State University School of Law May 2023; passed bar exam July 2023. Disclosed DUI conviction (August 14, 2020, Case No. CR-2020-04471) and academic probation (February–April 2021, resolved in applicant's favor). Issue Code CF-CRIM-DUI; authority Rules of Admission § 7.3(b). Fitness determination: DEFERRED pending character and fitness review. Probation completed without violation. No additional criminal history. Academic probation resolved; no transcript notation. Applicant disclosed all matters voluntarily.",
+      "fitness_relevant": true
+    },
+    {
+      "document_id": "DOC002",
+      "document_type": "Court Record",
+      "title": "Court Record – DUI Conviction and Sentencing",
+      "date": "2020-11-04",
+      "source": "StateCourtDB",
+      "summary": "DUI arrest August 14, 2020; BAC 0.12%. Cooperative, non-combative arrest. Arraignment August 22; guilty plea September 18; sentencing November 4, 2020. Sentence: 12 months probation, $1,200 fine, 90-day license suspension, mandatory alcohol education (completed January 12, 2021), 40 hours community service. No confinement. Probation completed August 14, 2021 — no violations. No subsequent criminal history. Court noted academic enrollment and clean prior record at sentencing; sentence at lower end of standard range.",
+      "fitness_relevant": true
+    },
+    {
+      "document_id": "DOC003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "source": "CMS",
+      "summary": "Compiled by Dr. Elena Reyes, PsyD, through June 2023. Applicant self-referred October 12, 2020 (~8 weeks post-arrest). Intake: anxiety, guilt, concentration difficulty. Background: parent cancer diagnosis (June 2020), friend's death (July 2020), law school stress. Diagnoses: Generalized Anxiety Disorder (moderate); Adjustment Disorder with Anxious Mood. Treatment: 42 sessions over three years, CBT and ACT. Progress: stable and sub-threshold GAD by March 2023; Adjustment Disorder resolved. No alcohol-related conduct since treatment began. Clinician assessment: DUI was atypical, not a pattern; genuine rehabilitation demonstrated; recommends applicant for professional roles.",
+      "fitness_relevant": true
+    },
+    {
+      "document_id": "DOC004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "source": "CMS",
+      "summary": "Applicant-authored statement July 10, 2023. Full acknowledgment of DUI; accepts responsibility. Explains context: parent cancer diagnosis June 2020, friend's death July 2020, law school preparation pressure. States DUI was an isolated incident during acute personal crisis; 'I told myself I was fine to drive. I was not.' Self-referred to therapy October 2020; sustained treatment nearly three years. No alcohol since November 2020. Addresses academic probation as citation error, resolved in applicant's favor. Asserts record since 2020 demonstrates rehabilitation. Offers to appear before Board for personal interview.",
+      "fitness_relevant": true
+    },
+    {
+      "document_id": "DOC005",
+      "document_type": "Committee Determination Letter",
+      "title": "Character and Fitness Determination – Initial Decision",
+      "date": "2023-12-18",
+      "source": "CMS",
+      "summary": "Board of Bar Examiners initial decision December 18, 2023. Mandatory disqualification under § 7.3(a) inapplicable — DUI is misdemeanor, not felony with moral turpitude. Discretionary analysis under § 7.3(b): factors against (DUI lapse, academic oversight); factors in favor (single offense, voluntary disclosure, probation complete, three years treatment, strong prognosis, clean graduation, strong references). Decision: NOT DENIED; DEFERRED pending (1) formal rehabilitation attestation from Dr. Reyes and (2) additional character reference from licensed attorney or judicial officer. One-year submission window from December 18, 2023. Committee noted ABA Guidelines applicability and recommended personal interview before final adjudication.",
+      "fitness_relevant": true
+    }
+  ],
+  "key_findings": {
+    "fitness_determination": "Deferred – Pending Character and Fitness Review — DOC001",
+    "application_authority": "Rules of Admission § 7.3(b) — DOC001",
+    "issue_type": "Criminal Record – DUI Conviction (Misdemeanor), August 14, 2020 — DOC001, DOC002",
+    "determination_date": "2023-12-18 — DOC005",
+    "application_period": "State University School of Law, 2020–2023 — DOC001",
+    "aggravating_factors": "DUI conviction BAC 0.12% (DOC001, DOC002); academic probation during 1L year requiring institutional oversight, though resolved (DOC001); guilty plea to criminal charge (DOC002)",
+    "mitigating_factors": "Single isolated offense, no prior or subsequent criminal history (DOC002, DOC005); voluntary disclosure of all matters on application (DOC001); probation completed without violation; all court conditions satisfied (DOC002); three years continuous mental health treatment, strong clinical prognosis (DOC003); documented acute personal crisis context predating incident (DOC003, DOC004); academic probation resolved in applicant's favor, no transcript notation (DOC001); graduated in good standing (DOC001); strong character references from faculty and community (DOC006, DOC008)",
+    "mental_health_nexus": "Partial nexus present across multiple documents. Clinician documents acute personal crisis predating DUI (DOC003). Applicant self-refers to treatment eight weeks after arrest and sustains it for three years (DOC003). Full clinical resolution of both diagnoses by mid-2023 (DOC003). Formal rehabilitation attestation explicitly connecting treatment to application issue and opining on current fitness is absent — identified as the critical gap by the Committee (DOC005)."
+  },
+  "missing_documents": [
+    {
+      "document_type": "Formal Rehabilitation Attestation – Dr. Elena Reyes, PsyD",
+      "impact": "Treatment records are comprehensive and on file, but the Committee specifically requested a separate formal attestation. This is the primary outstanding requirement and highest-priority document not yet submitted."
+    },
+    {
+      "document_type": "Character Reference from Licensed Attorney or Judicial Officer",
+      "impact": "Committee required at least one such reference. Current character references are from a law professor and community organizations. The paralegal internship supervisor (Maria Hernandez, licensed attorney) is listed in DOC007 but a separate character reference letter from her may be needed."
+    },
+    {
+      "document_type": "Academic Probation Resolution Letter – Academic Standards Committee",
+      "impact": "Applicant's account of the resolution is corroborated by DOC001 but the underlying committee letter is not in the set. Submission could substantiate the applicant's account definitively."
+    }
+  ],
+  "additional_review_recommended": [
+    {
+      "document_type": "Formal Rehabilitation Attestation from Dr. Elena Reyes",
+      "reason": "Committee's highest-priority requirement. Single most impactful document not yet in file."
+    },
+    {
+      "document_type": "Personal Interview Before the Board",
+      "reason": "Committee recommended this before final adjudication (DOC005). Applicant offered to appear (DOC004). Analogous to a Mental Health Review before final determination."
+    }
+  ],
+  "confidence_level": "medium",
+  "confidence_rationale": "Bar application form present with clear fitness determination and issue basis well-documented across DOC001 and DOC002. Supporting treatment records, personal statement, and prior Committee decision all retrieved and analyzed. Confidence is medium rather than high because two specific evidentiary requirements identified by the Committee (rehabilitation attestation; attorney/judicial reference) are not yet in the document set, and the administrative deferral is non-final pending their submission."
+}
