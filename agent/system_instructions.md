@@ -75,19 +75,6 @@ Return only this JSON structure. No prose, no headings, no explanation outside t
 
 ---
 
-# Model-Specific Instructions: Haiku
-# Remove this section when using Sonnet or higher
-
-CRITICAL: Your final output MUST be valid JSON only. No prose, no explanation, no text before or after the JSON block. Any response that is not pure JSON will be rejected.
-
-- summary field: exactly one sentence, no more
-- overall_summary field: 50 words maximum, no more
-- missing_evidence field: array of strings only, no nested objects
-
-REMINDER: Return only the JSON structure defined above. Do not add fields. Do not add narrative. Do not summarize outside the JSON. Your entire response must be the JSON object and nothing else.
-
----
-
 ## Important Guidelines
 
 - Never fabricate information or make assumptions not supported by documents
