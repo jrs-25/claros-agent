@@ -1,0 +1,48 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Taylor, Jordan Reed",
+  "analysis_date": "2026-02-24",
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "summary": "Status is DEFERRED under Rules of Admission § 7.3(b) for a 2020-08-14 DUI misdemeanor conviction (Case CR-2020-04471, probation completed 2021-08-14) and a 2021 academic probation resolved with no transcript notation; both voluntarily self-disclosed."
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "summary": "Dr. Elena Reyes (PsyD) documents 32 months of CBT/ACT treatment (42 sessions, near-perfect attendance) for GAD and situational Adjustment Disorder following the DUI, with both conditions resolved by June 2023 and a clinical opinion that the incident was an isolated crisis-period departure; a Treatment Completion Certificate was issued 2023-06-15 and referenced as submitted to the Board separately."
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "summary": "Applicant accepts full responsibility for the DUI (BAC 0.12%, Case CR-2020-04471), contextualizes it within acute personal stressors in summer 2020 (parent's Stage 3 cancer diagnosis, close friend's sudden death), reports sobriety since November 2020 and sustained therapy, and states the full court record and probation completion report from Supervising Officer L. Vasquez were submitted to the Board separately."
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "summary": "Twelve-week paralegal internship (May–August 2022) across immigration, family law, and civil rights rotations with outstanding performance ratings from three attorneys, zero disciplinary issues, and a note in Section 10 that Managing Partner Maria Hernandez (Bar No. 0091234) indicated her intention to submit a separate formal character reference letter directly to the Board."
+    },
+    {
+      "document_id": "taylor-009",
+      "document_type": "Academic Record",
+      "title": "Law School Transcript – Jordan Reed Taylor",
+      "date": "2023-06-01",
+      "summary": "Official transcript confirms J.D. conferred 2023-05-12, cumulative GPA 3.41, top 35% of class (62/189), good standing at graduation, with a notation that academic probation was removed per Academic Standards Committee determination dated 2021-04-15 with no permanent record notation."
+    }
+  ],
+  "overall_summary": "Application DEFERRED under § 7.3(b) for a 2020 DUI misdemeanor. Applicant completed probation, sustained 32 months of clinical treatment with fully resolved diagnoses, graduated in good academic standing (GPA 3.41, top 35%), and received outstanding professional evaluations. Three referenced documents are absent from the application folder.",
+  "missing_evidence": [
+    "Treatment Completion Certificate issued 2023-06-15 by Dr. Elena Reyes, PsyD — referenced in taylor-003 as submitted to the Board as part of character and fitness supplemental materials",
+    "Court record and sentencing documentation for Case No. CR-2020-04471, including probation completion report from Supervising Officer L. Vasquez — referenced in taylor-004 as submitted to the Board separately",
+    "Formal character reference letter from Maria Hernandez, J.D. (Bar No. 0091234), Managing Partner, Hernandez & Associates — referenced in taylor-007 (Section 10) as submitted directly to the Board under her bar number"
+  ]
+}
