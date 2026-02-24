@@ -98,19 +98,31 @@ Claude Code will:
 
 ## MCP Tools
 
-The server exposes two tools:
+Two servers expose three tools in total.
 
-### `search`
+### claros-agent (data retrieval)
+
+#### `search`
 ```
 Input:  { "participant_id": "APP-2023-78901" }
 Output: Array of document metadata records (id, type, title, date, source)
 ```
 
-### `retrieve_text_content`
+#### `retrieve_text_content`
 ```
 Input:  { "document_id": "DOC001" }
 Output: Full text of the document
 ```
+
+### claros-summarizer (LLM summarization)
+
+#### `summarize`
+```
+Input:  { "document_text": "...", "extraction_focus": "...", "model": "claude-haiku-4-5-20251001" }
+Output: Focused summary containing only information relevant to the extraction focus
+```
+
+Requires `ANTHROPIC_API_KEY` to be set in the environment.
 
 ---
 
