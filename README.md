@@ -6,7 +6,7 @@ A local AI agent that uses [Claude Code](https://claude.ai/code) and the [Model 
 
 ## What It Does
 
-Eligibility determinations — whether for bar admission, VA benefits, professional licensing, or other regulated contexts — require synthesizing multiple document types against a domain-specific legal framework. Reviewing these cases manually is time-intensive and error-prone. This agent automates the discovery and organization phase so the human reviewer can focus on judgment.
+Eligibility determinations — whether for bar admission, insurance benefits, professional licensing, or other regulated contexts — require synthesizing multiple document types against a domain-specific legal framework. Reviewing these cases manually is time-intensive and error-prone. This agent automates the discovery and organization phase so the human reviewer can focus on judgment.
 
 This project demonstrates an agentic workflow in which Claude Code:
 
