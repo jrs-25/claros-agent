@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "cod-agent": {
+    "claros-agent": {
       "command": "/Users/joelrsadler/anaconda3/bin/python3",
       "args": ["mcp_server/server.py"]
     },
-    "cod-summarizer": {
+    "claros-summarizer": {
       "command": "/Users/joelrsadler/anaconda3/bin/python3",
       "args": ["mcp_server/summarizer_server.py"]
     }

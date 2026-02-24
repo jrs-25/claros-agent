@@ -2,11 +2,19 @@
   "permissions": {
     "allow": [
       "Bash(pip3 install:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "mcp__claros-agent__search",
+      "mcp__claros-agent__retrieve_text_content",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__claros-summarizer__summarize",
+      "Bash(git remote remove origin)"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "cod-agent"
-  ],
-  "enableAllProjectMcpServers": true
+    "claros-agent",
+    "claros-summarizer"
+  ]
 }

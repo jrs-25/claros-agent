@@ -1,39 +1,52 @@
-CERTIFICATE OF RELEASE OR DISCHARGE FROM ACTIVE DUTY (DD Form 214)
+BAR APPLICATION – CHARACTER AND FITNESS DISCLOSURE
+[State] Board of Bar Examiners
 
-1. NAME (Last, First, Middle): Murphy, Samuel James
-2. DEPARTMENT/COMPONENT/BRANCH: Army
-3. SOCIAL SECURITY NO.: XXX-XX-7821
-4. DATE OF BIRTH: 19780413
-5. DATE OF ENTRY ON ACTIVE DUTY: 20010312
-6. HOME OF RECORD AT TIME OF ENTRY: 412 Oak Street, Columbus, OH 43215
+1. NAME (Last, First, Middle): Taylor, Jordan Reed
+2. DATE OF BIRTH: 19950822
+3. LAW SCHOOL: State University School of Law
+4. DATE OF GRADUATION: 2023-05-12
+5. HOME ADDRESS: 814 Cypress Avenue, Apt 3B, Springfield, [State] 62704
 
-9. COMMAND TO WHICH TRANSFERRED: NA – Discharge
+6. EDUCATION RECORD:
+   a. Law School Entry Date: 2020-08-17
+   b. Graduation Date: 2023-05-12
+   c. Degree: Juris Doctor (J.D.)
+   d. Class Rank: Top 35%
+   e. Academic Standing at Graduation: Good Standing
 
-11. PRIMARY SPECIALTY: 11B – Infantryman (26 months)
+7. BAR EXAMINATION:
+   Examination Sat: July 2023
+   Jurisdiction: [State]
+   Result: Passed (score on file with Board)
 
-12. RECORD OF SERVICE
-    a. Date Entered AD This Period: 2001-03-12
-    b. Separation Date This Period: 2003-08-15
-    c. Net Active Service This Period: 2 years, 5 months, 3 days
-    d. Total Prior Active Service: NONE
-    e. Total Prior Inactive Service: NONE
+8. CHARACTER AND FITNESS – MANDATORY DISCLOSURES:
 
-13. DECORATIONS, MEDALS, BADGES, CITATIONS AND CAMPAIGN RIBBONS AWARDED OR AUTHORIZED:
-    Army Service Ribbon; National Defense Service Medal; Global War on Terrorism Service Medal
+   Disclosure Item 1:
+   Date of Incident: 2020-08-14
+   Nature of Incident: DUI – Driving Under the Influence of Alcohol (Misdemeanor)
+   Jurisdiction: [County] County Court, [State]
+   Case No.: CR-2020-04471
+   Disposition: Convicted; sentenced to 12 months probation, $1,200 fine, 90-day driver's license suspension, mandatory completion of alcohol education program
+   Probation Status: Completed in full on 2021-08-14
+   Applicant Self-Disclosure: Yes – disclosed on application
 
-23. TYPE OF SEPARATION: Discharge
+   Disclosure Item 2:
+   Date of Incident: 2021-02-03
+   Nature of Incident: Academic probation – 1L Contracts course; alleged plagiarism
+   Institution: State University School of Law
+   Disposition: Matter reviewed by Academic Standards Committee; applicant provided documentation demonstrating good-faith misunderstanding of citation requirements; academic probation lifted 2021-04-15; no notation on transcript
+   Applicant Self-Disclosure: Yes – disclosed on application
 
-24. CHARACTER OF SERVICE: Under Other Than Honorable Conditions (UOTHC)
+9. ADDITIONAL CRIMINAL HISTORY: None reported.
 
-25. SEPARATION AUTHORITY: AR 635-200, Chapter 14
-
-26. SEPARATION CODE: 385 – Absent Without Leave (AWOL) / Desertion
-
-27. REENTRY CODE: RE-4
-
-28. NARRATIVE REASON FOR SEPARATION: Misconduct – Absent Without Leave
+10. CHARACTER AND FITNESS DETERMINATION (Board Use Only):
+    Issue Code: CF-CRIM-DUI – Criminal Conduct / Alcohol-Related Offense
+    Application Authority: Rules of Admission § 7.3(b)
+    Fitness Determination Status: DEFERRED – Pending character and fitness review
+    Date of Deferral: 2023-12-18
 
 REMARKS:
-Soldier departed Absent Without Leave on 2003-02-14 from Fort Bragg, NC.
-Returned to military control 2003-06-01. Tried by Summary Court-Martial.
-Discharged Under Other Than Honorable Conditions per AR 635-200, Chapter 14-12b.
+Applicant disclosed DUI conviction voluntarily on application submitted July 12, 2023. Single prior offense. Probation completed without incident. No subsequent criminal history. Academic probation was reviewed and resolved in applicant's favor with no transcript notation. Board staff recommends full character and fitness review prior to final determination.
+
+Application Received: 2023-07-12
+Reviewed by: Board of Bar Examiners Character and Fitness Committee

@@ -6,7 +6,7 @@ import mcp.types as types
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 
-server = Server("COD Document Server")
+server = Server("Claros Document Server")
 
 # ---------------------------------------------------------------------------
 # Data paths
@@ -41,7 +41,7 @@ async def list_tools() -> list[types.Tool]:
         types.Tool(
             name="search",
             description=(
-                "Search for documents associated with a veteran participant ID. "
+                "Search for documents associated with an applicant participant ID. "
                 "Returns a list of document metadata records. Use retrieve_text_content "
                 "with a document_id to fetch the full text of any document."
             ),
@@ -50,7 +50,7 @@ async def list_tools() -> list[types.Tool]:
                 "properties": {
                     "participant_id": {
                         "type": "string",
-                        "description": "The veteran's participant/ICN identifier.",
+                        "description": "The applicant's participant/case identifier.",
                     }
                 },
                 "required": ["participant_id"],

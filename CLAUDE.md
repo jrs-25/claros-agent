@@ -4,15 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A local agent implementation for VA Character of Discharge (COD) case analysis, backed by a two-server Model Context Protocol (MCP) architecture. The agent retrieves veteran documents via one MCP server and summarizes them via a separate, general-purpose summarization server.
+A local agent implementation for bar admissions character and fitness case analysis, backed by a two-server Model Context Protocol (MCP) architecture. The agent retrieves applicant documents via one MCP server and summarizes them via a separate, general-purpose summarization server.
+
+The same architecture and reasoning pattern applies to other eligibility domains such as VA character of discharge determinations, toxic exposure benefit reviews, and personal trauma evidence evaluations.
 
 ## Directory Structure
 
-- `agent/` - Core agent logic
+- `agent/` - Core agent logic and system instructions
 - `mcp_server/` - MCP server implementations (see below)
-- `mock_data/` - Mock veteran documents and search index used for development
+- `mock_data/` - Mock applicant documents and search index used for development
 - `tests/` - Test files
-- `output/` - Generated output files (e.g. COD analysis reports)
+- `output/` - Generated output files (e.g. character and fitness analysis reports)
 
 ## MCP Server Architecture
 
@@ -23,7 +25,7 @@ Pure data layer. No LLM calls, no external API dependencies.
 
 | Tool | Parameters | Description |
 |---|---|---|
-| `search` | `participant_id` (string) | Returns document metadata for a veteran by participant/ICN ID |
+| `search` | `participant_id` (string) | Returns document metadata for an applicant by application/participant ID |
 | `retrieve_text_content` | `document_id` (string) | Returns the full raw text of a document |
 
 ### `mcp_server/summarizer_server.py` — Summarization Server
