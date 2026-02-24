@@ -111,7 +111,7 @@ Applicant takes direct responsibility for the DUI, contextualizes the stressors,
 
 ---
 
-## Step 7 — JSON Output
+## JSON Output
 
 ```json
 {
