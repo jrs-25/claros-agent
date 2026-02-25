@@ -1,0 +1,44 @@
+{
+  "participant_id": "APP-2023-78901",
+  "applicant_name": "Jordan Taylor",
+  "analysis_date": "2026-02-25",
+  "documents_reviewed": [
+    {
+      "document_id": "taylor-001",
+      "document_type": "Bar Application Form",
+      "title": "Bar Application – Character and Fitness Disclosure",
+      "date": "2023-07-12",
+      "summary": "Bar admission application disclosing a resolved DUI conviction and academic probation; contains no nursing license revocation or patient safety information."
+    },
+    {
+      "document_id": "taylor-003",
+      "document_type": "Mental Health / Treatment Record",
+      "title": "Mental Health Treatment Records – Anxiety Disorder",
+      "date": "2023-06-15",
+      "summary": "Documents 42 therapy sessions (2020–2023) for anxiety triggered by personal crises coinciding with a single DUI; clinician confirms sustained rehabilitation and no subsequent alcohol-related conduct."
+    },
+    {
+      "document_id": "taylor-004",
+      "document_type": "Personal Statement",
+      "title": "Personal Statement – Jordan Taylor",
+      "date": "2023-07-10",
+      "summary": "Character statement for bar admission addressing a DUI and academic citation error; demonstrates rehabilitation through therapy and clean conduct but is not a nursing reinstatement petition."
+    },
+    {
+      "document_id": "taylor-007",
+      "document_type": "Employment History Record",
+      "title": "Paralegal Internship Verification – Hernandez & Associates",
+      "date": "2023-06-30",
+      "summary": "Employment verification for a legal internship with no information relevant to patient safety, healthcare supervision, or nursing fitness to practice."
+    }
+  ],
+  "overall_summary": "No documents address nursing license revocation, patient safety, or healthcare fitness to practice. The file concerns bar admission character and fitness only.",
+  "missing_evidence": [
+    "Board disciplinary order or license revocation notice",
+    "Nursing license reinstatement application or petition",
+    "Patient safety incident reports or clinical performance records",
+    "Healthcare employer or nursing supervisor references",
+    "Substance abuse treatment records specific to clinical practice impairment",
+    "Continuing education or remediation completion records"
+  ]
+}
